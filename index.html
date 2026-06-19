@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPÉ - Wear What Matters</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">SHOPE</a>
+            <ul>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Home &amp; Living</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+            <div>
+                <input type="text" placeholder="Search products..." />
+                <a href="#">🛒</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <p class="hero-eyebrow">NEW SEASON 2026</p>
+            <h1>
+                Wear <br />
+                What <br />
+                <span>Matters.</span>
+            </h1>
+            <p class="hero-desc">
+                Curated essentials made to last. From morning coffee to weekend
+                markets — dressed for all of it.
+            </p>
+            <div class="hero-buttons">
+                <a href="#" class="btn-primary">Shop Now</a>
+                <a href="#" class="btn-outline">View Lookbook</a>
+            </div>
+            <div class="hero-stats">
+                <div>
+                    <strong>4.8★</strong>
+                    <p>2.1k Reviews</p>
+                </div>
+                <div>
+                    <strong>48h</strong>
+                    <p>Fast Ship</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?q=80&w=1072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Clothes on a rack" />
+        </div>
+    </section>
+
+    <section class="filter-bar">
+        <p>FILTER:</p>
+        <ul>
+            <li><a href="#" class="active">All</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">Footwear</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </section>
+
+    <section class="products-section">
+        <div class="products-header">
+            <div>
+                <h2>All Products</h2>
+                <p>8 items</p>
+            </div>
+            <div class="sort-wrapper">
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                    <option>Recommended</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <span class="badge badge-sale">SALE</span>
+                    <img src="https://plus.unsplash.com/premium_photo-1673125287363-b4e837f1215f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Merino Wool Crewneck" />
+                    <button class="wishlist-btn">♡</button>
+                </div>
+                <p class="product-category">Clothing</p>
+                <h3>Merino Wool Crewneck</h3>
+                <p class="product-desc">Ultra-soft 100% merino wool, ethically sourced.</p>
+                <div class="product-rating">
+                    <span>★ 4.8</span>
+                    <span>(312)</span>
+                </div>
+                <div class="product-price">
+                    <strong>$129</strong>
+                    <s>$179</s>
+                    <span class="discount">-28%</span>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <span class="badge badge-bestseller">BESTSELLER</span>
+                    <img src="https://images.unsplash.com/photo-1777987601423-f350ac29b3e9?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Leather Chelsea Boots" />
+                    <button class="wishlist-btn">♡</button>
+                </div>
+                <p class="product-category">Footwear</p>
+                <h3>Leather Chelsea Boots</h3>
+                <p class="product-desc">Full-grain leather with elastic side panels.</p>
+                <div class="product-rating">
+                    <span>★ 4.9</span>
+                    <span>(187)</span>
+                </div>
+                <div class="product-price">
+                    <strong>$289</strong>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1578237493287-8d4d2b03591a?q=80&w=626&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Canvas Tote Bag" />
+                    <button class="wishlist-btn">♡</button>
+                </div>
+                <p class="product-category">Accessories</p>
+                <h3>Canvas Tote Bag</h3>
+                <p class="product-desc">Heavyweight 12oz canvas with reinforced stitching.</p>
+                <div class="product-rating">
+                    <span>★ 4.6</span>
+                    <span>(543)</span>
+                </div>
+                <div class="product-price">
+                    <strong>$59</strong>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <span class="badge badge-sale">SALE</span>
+                    <img src="https://images.unsplash.com/photo-1719473448126-eb1159ec5242?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Slim Chino Trousers" />
+                    <button class="wishlist-btn">♡</button>
+                </div>
+                <p class="product-category">Clothing</p>
+                <h3>Slim Chino Trousers</h3>
+                <p class="product-desc">Stretch-cotton blend for all-day comfort.</p>
+                <div class="product-rating">
+                    <span>★ 4.7</span>
+                    <span>(228)</span>
+                </div>
+                <div class="product-price">
+                    <strong>$99</strong>
+                    <s>$130</s>
+                    <span class="discount">-24%</span>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <span class="badge badge-new">NEW</span>
+                    <img src="https://images.unsplash.com/photo-1637299945697-03b75ca03480?q=80&w=1092&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ceramic Pour-Over Set" />
+                    <button class="wishlist-btn">♡</button>
+                </div>
+                <p class="product-category">Home</p>
+                <h3>Ceramic Pour-Over Set</h3>
+                <p class="product-desc">Hand-thrown ceramic with bamboo stand.</p>
+                <div class="product-rating">
+                    <span>★ 4.9</span>
+                    <span>(91)</span>
+                </div>
+                <div class="product-price">
+                    <strong>$74</strong>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <span class="badge badge-bestseller">BESTSELLER</span>
+                    <img src="https://images.unsplash.com/photo-1637719752114-42a31081896c?q=80&w=954&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Minimalist Watch" />
+                    <button class="wishlist-btn">♡</button>
+                </div>
+                <p class="product-category">Accessories</p>
+                <h3>Minimalist Watch</h3>
+                <p class="product-desc">Swiss quartz movement, sapphire crystal glass.</p>
+                <div class="product-rating">
+                    <span>★ 4.8</span>
+                    <span>(402)</span>
+                </div>
+                <div class="product-price">
+                    <strong>$215</strong>
+                </div>
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <img src="https://images.unsplash.com/photo-1740711152088-88a009e877bb?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Linen Button Shirt" />
+                    <button class="wishlist-btn">♡</button>
+                </div>
+                <p class="product-category">Clothing</p>
+                <h3>Linen Button Shirt</h3>
+                <p class="product-desc">Breathable European linen, relaxed fit.</p>
+                <div class="product-rating">
+                    <span>★ 4.5</span>
+                    <span>(174)</span>
+                </div>
+                <div class="product-price">
+                    <strong>$89</strong>
+                </div>
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+                <div class="product-img-wrap">
+                    <span class="badge badge-new">NEW</span>
+                    <img src="https://images.unsplash.com/photo-1594040226829-7f251ab46d80?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Handmade Wool Carpet" />
+                    <button class="wishlist-btn">♡</button>
+                </div>
+                <p class="product-category">Home</p>
+                <h3>Handmade Wool Carpet</h3>
+                <p class="product-desc">Hand-tufted wool, 120×180cm.</p>
+                <div class="product-rating">
+                    <span>★ 4.7</span>
+                    <span>(66)</span>
+                </div>
+                <div class="product-price">
+                    <strong>$349</strong>
+                </div>
+            </div>
+
+        </div>
+        <!-- end product grid -->
+    </section>
+
+    <section class="trust-section">
+        <div class="trust-item">
+            <span>🚚</span>
+            <div>
+                <strong>Free Shipping</strong>
+                <p>On all orders over $75</p>
+            </div>
+        </div>
+        <div class="trust-item">
+            <span>🔄</span>
+            <div>
+                <strong>Easy Returns</strong>
+                <p>30-day hassle-free returns</p>
+            </div>
+        </div>
+        <div class="trust-item">
+            <span>🔒</span>
+            <div>
+                <strong>Secure Checkout</strong>
+                <p>256-bit SSL encryption</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <p>DON'T MISS OUT</p>
+        <h2>10% off your first order</h2>
+        <p>Subscribe and get early access to new drops, exclusive deals, and style inspiration.</p>
+        <div class="newsletter-form">
+            <input type="email" placeholder="your@email.com">
+            <button>Get 10% off</button>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h3>SHOPÉ</h3>
+            <p>Curated goods for the considered life. Sustainable, minimal, built to last.</p>
+        </div>
+        <div>
+            <h4>SHOP</h4>
+            <ul>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>HELP</h4>
+            <ul>
+                <li><a href="#">Shipping Info</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Size Guide</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>COMPANY</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
