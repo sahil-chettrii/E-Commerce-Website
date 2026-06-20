@@ -18,8 +18,8 @@
                 <li><a href="#">Sale</a></li>
             </ul>
             <div>
-                <input type="text" placeholder="Search products..." />
-                <a href="#">🛒</a>
+                <input type="text" placeholder="Search products..." id="searchInput" />
+                <a href="#" id="cartBtn">🛒<span id="cartCount">0</span></a>
             </div>
         </nav>
     </header>
@@ -87,11 +87,12 @@
         <div class="product-grid">
 
             <!-- Product 1 -->
-            <div class="product-card">
+            <div class="product-card" data-category="clothing" data-price="129">
                 <div class="product-img-wrap">
                     <span class="badge badge-sale">SALE</span>
                     <img src="https://plus.unsplash.com/premium_photo-1673125287363-b4e837f1215f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Merino Wool Crewneck" />
                     <button class="wishlist-btn">♡</button>
+                    <button class="cart-add-btn">🛒</button>
                 </div>
                 <p class="product-category">Clothing</p>
                 <h3>Merino Wool Crewneck</h3>
@@ -108,11 +109,12 @@
             </div>
 
             <!-- Product 2 -->
-            <div class="product-card">
+            <div class="product-card" data-category="footwear" data-price="289">
                 <div class="product-img-wrap">
                     <span class="badge badge-bestseller">BESTSELLER</span>
                     <img src="https://images.unsplash.com/photo-1777987601423-f350ac29b3e9?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Leather Chelsea Boots" />
                     <button class="wishlist-btn">♡</button>
+                    <button class="cart-add-btn">🛒</button>
                 </div>
                 <p class="product-category">Footwear</p>
                 <h3>Leather Chelsea Boots</h3>
@@ -127,10 +129,11 @@
             </div>
 
             <!-- Product 3 -->
-            <div class="product-card">
+            <div class="product-card" data-category="accessories" data-price="59">
                 <div class="product-img-wrap">
                     <img src="https://images.unsplash.com/photo-1578237493287-8d4d2b03591a?q=80&w=626&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Canvas Tote Bag" />
                     <button class="wishlist-btn">♡</button>
+                    <button class="cart-add-btn">🛒</button>
                 </div>
                 <p class="product-category">Accessories</p>
                 <h3>Canvas Tote Bag</h3>
@@ -145,11 +148,12 @@
             </div>
 
             <!-- Product 4 -->
-            <div class="product-card">
+            <div class="product-card" data-category="clothing" data-price="99">
                 <div class="product-img-wrap">
                     <span class="badge badge-sale">SALE</span>
                     <img src="https://images.unsplash.com/photo-1719473448126-eb1159ec5242?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Slim Chino Trousers" />
                     <button class="wishlist-btn">♡</button>
+                    <button class="cart-add-btn">🛒</button>
                 </div>
                 <p class="product-category">Clothing</p>
                 <h3>Slim Chino Trousers</h3>
@@ -166,11 +170,12 @@
             </div>
 
             <!-- Product 5 -->
-            <div class="product-card">
+            <div class="product-card" data-category="home" data-price="74">
                 <div class="product-img-wrap">
                     <span class="badge badge-new">NEW</span>
                     <img src="https://images.unsplash.com/photo-1637299945697-03b75ca03480?q=80&w=1092&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ceramic Pour-Over Set" />
                     <button class="wishlist-btn">♡</button>
+                    <button class="cart-add-btn">🛒</button>
                 </div>
                 <p class="product-category">Home</p>
                 <h3>Ceramic Pour-Over Set</h3>
@@ -185,11 +190,12 @@
             </div>
 
             <!-- Product 6 -->
-            <div class="product-card">
+            <div class="product-card" data-category="accessories" data-price="215">
                 <div class="product-img-wrap">
                     <span class="badge badge-bestseller">BESTSELLER</span>
                     <img src="https://images.unsplash.com/photo-1637719752114-42a31081896c?q=80&w=954&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Minimalist Watch" />
                     <button class="wishlist-btn">♡</button>
+                    <button class="cart-add-btn">🛒</button>
                 </div>
                 <p class="product-category">Accessories</p>
                 <h3>Minimalist Watch</h3>
@@ -204,10 +210,11 @@
             </div>
 
             <!-- Product 7 -->
-            <div class="product-card">
+            <div class="product-card" data-category="clothing" data-price="89">
                 <div class="product-img-wrap">
                     <img src="https://images.unsplash.com/photo-1740711152088-88a009e877bb?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Linen Button Shirt" />
                     <button class="wishlist-btn">♡</button>
+                    <button class="cart-add-btn">🛒</button>
                 </div>
                 <p class="product-category">Clothing</p>
                 <h3>Linen Button Shirt</h3>
@@ -222,11 +229,12 @@
             </div>
 
             <!-- Product 8 -->
-            <div class="product-card">
+            <div class="product-card" data-category="home" data-price="349">
                 <div class="product-img-wrap">
                     <span class="badge badge-new">NEW</span>
                     <img src="https://images.unsplash.com/photo-1594040226829-7f251ab46d80?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Handmade Wool Carpet" />
                     <button class="wishlist-btn">♡</button>
+                    <button class="cart-add-btn">🛒</button>
                 </div>
                 <p class="product-category">Home</p>
                 <h3>Handmade Wool Carpet</h3>
@@ -314,5 +322,30 @@
             </ul>
         </div>
     </footer>
+
+    <!-- ===== CART SIDEBAR PANEL ===== -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <aside class="cart-panel" id="cartPanel">
+        <div class="cart-panel-header">
+            <h3>Your Cart</h3>
+            <button class="cart-close-btn" id="cartCloseBtn">✕</button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items get inserted here by JS -->
+            <p class="cart-empty-msg" id="cartEmptyMsg">Your cart is empty.</p>
+        </div>
+
+        <div class="cart-panel-footer">
+            <div class="cart-total-row">
+                <span>Total</span>
+                <strong id="cartTotalPrice">$0</strong>
+            </div>
+            <button class="btn-primary cart-checkout-btn">Checkout</button>
+        </div>
+    </aside>
+
+    <script src="script.js"></script>
 </body>
 </html>
